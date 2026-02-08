@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import heroBg from "@/assets/hero-bg.jpg";
@@ -55,7 +56,7 @@ const HeroSection = () => {
           className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
           <Button asChild size="lg">
-            <a href="#contact">Book a Session</a>
+            <Link to="/book">Book a Session</Link>
           </Button>
           <Button asChild variant="outline" size="lg">
             <a href="#contact">Contact Us</a>
