@@ -46,13 +46,19 @@ const Therapist = () => {
               <div className="bg-background border border-border rounded-xl p-8 md:p-12 mb-12">
                 <div className="space-y-4 text-muted-foreground leading-relaxed">
                   <p>
-                    Meet Sharon Omune, the founder and lead therapist at Anam Therapy and Consulting.
+                    Meet Sharon Omune, Founder and Lead Therapist at Anam Therapy and Consulting.
                   </p>
                   <p>
-                    With a deep commitment to mental health and emotional well-being, Sharon brings a wealth of clinical experience to her work with individuals, couples, families, and organizations.
+                    With a deep commitment to mental health and emotional well-being, Sharon brings a wealth of clinical experience to her work with individuals, couples, families, and organizations. She holds a Bachelor's Degree in Psychology from the University of Nairobi and is currently pursuing a Master's Degree in Counselling Psychology at the United States International University (USIU).
                   </p>
                   <p>
-                    I am a Licensed Professional Counselling Psychologist, registered with the Counsellors and Psychologists Board of Kenya (CPB). I hold a Bachelor's Degree in Psychology from the University of Nairobi and am currently pursuing a Master's Degree in Counselling Psychology at the United States International University (USIU).
+                    Sharon's therapeutic approach is rooted in evidence-based practices, combining cognitive-behavioral techniques, person-centered therapy, and trauma-informed care. She creates a safe, non-judgmental environment where clients can explore their challenges, process difficult emotions, and develop practical coping strategies.
+                  </p>
+                  <p>
+                    Beyond individual and couples therapy, Sharon is passionate about community mental health. She works with schools on substance use prevention programs and provides mental health consulting and training for organizations seeking to support the well-being of their staff and communities.
+                  </p>
+                  <p>
+                    Sharon's practice is built on the values of compassion, confidentiality, and professional excellence. She believes that every person deserves access to quality psychological care and is dedicated to making therapy accessible and approachable for all.
                   </p>
                 </div>
               </div>
