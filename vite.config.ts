@@ -5,6 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: "/anamtherapy-33b9f0d6/", // <-- required for GitHub Pages
   server: {
     host: "::",
     port: 8080,
