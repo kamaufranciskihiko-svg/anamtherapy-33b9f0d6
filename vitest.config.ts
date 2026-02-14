@@ -1,20 +1,10 @@
 import { defineConfig } from "vitest/config";
-import react from "@vitejs/plugin-react-swc";
-import path from "path";
 
 export default defineConfig({
-  base: "/anamtherapy-33b9f0d6/",
-
-  plugins: [react()],
-
   test: {
-    environment: "jsdom",
-    globals: true,
-    setupFiles: ["./src/test/setup.ts"],
-    include: ["src/**/*.{test,spec}.{ts,tsx}"],
-  },
-
-  resolve: {
-    alias: { "@": path.resolve(__dirname, "./src") },
+    environment: "jsdom",               // For React component tests
+    globals: true,                       // Allows using describe/it without imports
+    setupFiles: ["./src/test/setup.ts"], // Optional setup utilities
+    include: ["src/**/*.{test,spec}.{ts,tsx}"], // Which files to run tests on
   },
 });
