@@ -3,13 +3,17 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 
 export default defineConfig({
+  base: "/anamtherapy-33b9f0d6/",
+
   plugins: [react()],
+
   test: {
     environment: "jsdom",
     globals: true,
     setupFiles: ["./src/test/setup.ts"],
     include: ["src/**/*.{test,spec}.{ts,tsx}"],
   },
+
   resolve: {
     alias: { "@": path.resolve(__dirname, "./src") },
   },
