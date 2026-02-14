@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=/anamtherapy-33b9f0d6/",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
